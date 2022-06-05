@@ -19,7 +19,7 @@ function App() {
   function onSubmit(e) {
     e.preventDefault();
     if (search == '') {
-      alert('Abe oo recipe to dal')
+      alert('Recipe Not Found')
     }
     setQuery(search);
   }
